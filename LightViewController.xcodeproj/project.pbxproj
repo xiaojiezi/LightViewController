@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		392BF6541BEC89F400E117C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6531BEC89F400E117C0 /* main.m */; };
+		392BF6571BEC89F400E117C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6561BEC89F400E117C0 /* AppDelegate.m */; };
+		392BF65A1BEC89F400E117C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6591BEC89F400E117C0 /* ViewController.m */; };
+		392BF65D1BEC89F400E117C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BF65B1BEC89F400E117C0 /* Main.storyboard */; };
+		392BF65F1BEC89F400E117C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 392BF65E1BEC89F400E117C0 /* Assets.xcassets */; };
+		392BF6621BEC89F400E117C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BF6601BEC89F400E117C0 /* LaunchScreen.storyboard */; };
+		392BF66D1BEC89F500E117C0 /* LightViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF66C1BEC89F500E117C0 /* LightViewControllerTests.m */; };
+		392BF6781BEC89F500E117C0 /* LightViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6771BEC89F500E117C0 /* LightViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		392BF6691BEC89F500E117C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392BF6471BEC89F400E117C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392BF64E1BEC89F400E117C0;
+			remoteInfo = LightViewController;
+		};
+		392BF6741BEC89F500E117C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392BF6471BEC89F400E117C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 392BF64E1BEC89F400E117C0;
+			remoteInfo = LightViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		392BF64F1BEC89F400E117C0 /* LightViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		392BF6531BEC89F400E117C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		392BF6551BEC89F400E117C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		392BF6561BEC89F400E117C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		392BF6581BEC89F400E117C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		392BF6591BEC89F400E117C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		392BF65C1BEC89F400E117C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		392BF65E1BEC89F400E117C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		392BF6611BEC89F400E117C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		392BF6631BEC89F400E117C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392BF6681BEC89F500E117C0 /* LightViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392BF66C1BEC89F500E117C0 /* LightViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewControllerTests.m; sourceTree = "<group>"; };
+		392BF66E1BEC89F500E117C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392BF6731BEC89F500E117C0 /* LightViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		392BF6771BEC89F500E117C0 /* LightViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewControllerUITests.m; sourceTree = "<group>"; };
+		392BF6791BEC89F500E117C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		392BF64C1BEC89F400E117C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392BF6651BEC89F500E117C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392BF6701BEC89F500E117C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		392BF6461BEC89F400E117C0 = {
+			isa = PBXGroup;
+			children = (
+				392BF6511BEC89F400E117C0 /* LightViewController */,
+				392BF66B1BEC89F500E117C0 /* LightViewControllerTests */,
+				392BF6761BEC89F500E117C0 /* LightViewControllerUITests */,
+				392BF6501BEC89F400E117C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		392BF6501BEC89F400E117C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				392BF64F1BEC89F400E117C0 /* LightViewController.app */,
+				392BF6681BEC89F500E117C0 /* LightViewControllerTests.xctest */,
+				392BF6731BEC89F500E117C0 /* LightViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392BF6511BEC89F400E117C0 /* LightViewController */ = {
+			isa = PBXGroup;
+			children = (
+				392BF6551BEC89F400E117C0 /* AppDelegate.h */,
+				392BF6561BEC89F400E117C0 /* AppDelegate.m */,
+				392BF6581BEC89F400E117C0 /* ViewController.h */,
+				392BF6591BEC89F400E117C0 /* ViewController.m */,
+				392BF65B1BEC89F400E117C0 /* Main.storyboard */,
+				392BF65E1BEC89F400E117C0 /* Assets.xcassets */,
+				392BF6601BEC89F400E117C0 /* LaunchScreen.storyboard */,
+				392BF6631BEC89F400E117C0 /* Info.plist */,
+				392BF6521BEC89F400E117C0 /* Supporting Files */,
+			);
+			path = LightViewController;
+			sourceTree = "<group>";
+		};
+		392BF6521BEC89F400E117C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				392BF6531BEC89F400E117C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		392BF66B1BEC89F500E117C0 /* LightViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				392BF66C1BEC89F500E117C0 /* LightViewControllerTests.m */,
+				392BF66E1BEC89F500E117C0 /* Info.plist */,
+			);
+			path = LightViewControllerTests;
+			sourceTree = "<group>";
+		};
+		392BF6761BEC89F500E117C0 /* LightViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				392BF6771BEC89F500E117C0 /* LightViewControllerUITests.m */,
+				392BF6791BEC89F500E117C0 /* Info.plist */,
+			);
+			path = LightViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		392BF64E1BEC89F400E117C0 /* LightViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392BF67C1BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewController" */;
+			buildPhases = (
+				392BF64B1BEC89F400E117C0 /* Sources */,
+				392BF64C1BEC89F400E117C0 /* Frameworks */,
+				392BF64D1BEC89F400E117C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightViewController;
+			productName = LightViewController;
+			productReference = 392BF64F1BEC89F400E117C0 /* LightViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		392BF6671BEC89F500E117C0 /* LightViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392BF67F1BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewControllerTests" */;
+			buildPhases = (
+				392BF6641BEC89F500E117C0 /* Sources */,
+				392BF6651BEC89F500E117C0 /* Frameworks */,
+				392BF6661BEC89F500E117C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392BF66A1BEC89F500E117C0 /* PBXTargetDependency */,
+			);
+			name = LightViewControllerTests;
+			productName = LightViewControllerTests;
+			productReference = 392BF6681BEC89F500E117C0 /* LightViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		392BF6721BEC89F500E117C0 /* LightViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 392BF6821BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewControllerUITests" */;
+			buildPhases = (
+				392BF66F1BEC89F500E117C0 /* Sources */,
+				392BF6701BEC89F500E117C0 /* Frameworks */,
+				392BF6711BEC89F500E117C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392BF6751BEC89F500E117C0 /* PBXTargetDependency */,
+			);
+			name = LightViewControllerUITests;
+			productName = LightViewControllerUITests;
+			productReference = 392BF6731BEC89F500E117C0 /* LightViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		392BF6471BEC89F400E117C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yj;
+				TargetAttributes = {
+					392BF64E1BEC89F400E117C0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					392BF6671BEC89F500E117C0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 392BF64E1BEC89F400E117C0;
+					};
+					392BF6721BEC89F500E117C0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 392BF64E1BEC89F400E117C0;
+					};
+				};
+			};
+			buildConfigurationList = 392BF64A1BEC89F400E117C0 /* Build configuration list for PBXProject "LightViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 392BF6461BEC89F400E117C0;
+			productRefGroup = 392BF6501BEC89F400E117C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				392BF64E1BEC89F400E117C0 /* LightViewController */,
+				392BF6671BEC89F500E117C0 /* LightViewControllerTests */,
+				392BF6721BEC89F500E117C0 /* LightViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		392BF64D1BEC89F400E117C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392BF6621BEC89F400E117C0 /* LaunchScreen.storyboard in Resources */,
+				392BF65F1BEC89F400E117C0 /* Assets.xcassets in Resources */,
+				392BF65D1BEC89F400E117C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392BF6661BEC89F500E117C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392BF6711BEC89F500E117C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		392BF64B1BEC89F400E117C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392BF65A1BEC89F400E117C0 /* ViewController.m in Sources */,
+				392BF6571BEC89F400E117C0 /* AppDelegate.m in Sources */,
+				392BF6541BEC89F400E117C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392BF6641BEC89F500E117C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392BF66D1BEC89F500E117C0 /* LightViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392BF66F1BEC89F500E117C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392BF6781BEC89F500E117C0 /* LightViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		392BF66A1BEC89F500E117C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392BF64E1BEC89F400E117C0 /* LightViewController */;
+			targetProxy = 392BF6691BEC89F500E117C0 /* PBXContainerItemProxy */;
+		};
+		392BF6751BEC89F500E117C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 392BF64E1BEC89F400E117C0 /* LightViewController */;
+			targetProxy = 392BF6741BEC89F500E117C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		392BF65B1BEC89F400E117C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392BF65C1BEC89F400E117C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		392BF6601BEC89F400E117C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392BF6611BEC89F400E117C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		392BF67A1BEC89F500E117C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		392BF67B1BEC89F500E117C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		392BF67D1BEC89F500E117C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chutong.LightViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		392BF67E1BEC89F500E117C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LightViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chutong.LightViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		392BF6801BEC89F500E117C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chutong.LightViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightViewController.app/LightViewController";
+			};
+			name = Debug;
+		};
+		392BF6811BEC89F500E117C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LightViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chutong.LightViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightViewController.app/LightViewController";
+			};
+			name = Release;
+		};
+		392BF6831BEC89F500E117C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LightViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chutong.LightViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		392BF6841BEC89F500E117C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LightViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.chutong.LightViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LightViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		392BF64A1BEC89F400E117C0 /* Build configuration list for PBXProject "LightViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392BF67A1BEC89F500E117C0 /* Debug */,
+				392BF67B1BEC89F500E117C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		392BF67C1BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392BF67D1BEC89F500E117C0 /* Debug */,
+				392BF67E1BEC89F500E117C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		392BF67F1BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392BF6801BEC89F500E117C0 /* Debug */,
+				392BF6811BEC89F500E117C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		392BF6821BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				392BF6831BEC89F500E117C0 /* Debug */,
+				392BF6841BEC89F500E117C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 392BF6471BEC89F400E117C0 /* Project object */;
+}
