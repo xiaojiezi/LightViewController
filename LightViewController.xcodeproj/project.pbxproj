@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391F1B4A1BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F1B491BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.m */; settings = {ASSET_TAGS = (); }; };
 		392BF6541BEC89F400E117C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6531BEC89F400E117C0 /* main.m */; };
 		392BF6571BEC89F400E117C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6561BEC89F400E117C0 /* AppDelegate.m */; };
 		392BF65A1BEC89F400E117C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6591BEC89F400E117C0 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		392BF6621BEC89F400E117C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 392BF6601BEC89F400E117C0 /* LaunchScreen.storyboard */; };
 		392BF66D1BEC89F500E117C0 /* LightViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF66C1BEC89F500E117C0 /* LightViewControllerTests.m */; };
 		392BF6781BEC89F500E117C0 /* LightViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6771BEC89F500E117C0 /* LightViewControllerUITests.m */; };
+		392BF6871BF0308D00E117C0 /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6861BF0308D00E117C0 /* ArrayDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		392BF68A1BF0322200E117C0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF6891BF0322200E117C0 /* Photo.m */; settings = {ASSET_TAGS = (); }; };
+		392BF68D1BF0323C00E117C0 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 392BF68C1BF0323C00E117C0 /* PhotoCell.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391F1B481BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhotoCell+ConfigureForPhoto.h"; sourceTree = "<group>"; };
+		391F1B491BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PhotoCell+ConfigureForPhoto.m"; sourceTree = "<group>"; };
 		392BF64F1BEC89F400E117C0 /* LightViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		392BF6531BEC89F400E117C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		392BF6551BEC89F400E117C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		392BF6731BEC89F500E117C0 /* LightViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		392BF6771BEC89F500E117C0 /* LightViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewControllerUITests.m; sourceTree = "<group>"; };
 		392BF6791BEC89F500E117C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392BF6851BF0308D00E117C0 /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		392BF6861BF0308D00E117C0 /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		392BF6881BF0322200E117C0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		392BF6891BF0322200E117C0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		392BF68B1BF0323C00E117C0 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		392BF68C1BF0323C00E117C0 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				392BF6601BEC89F400E117C0 /* LaunchScreen.storyboard */,
 				392BF6631BEC89F400E117C0 /* Info.plist */,
 				392BF6521BEC89F400E117C0 /* Supporting Files */,
+				392BF6851BF0308D00E117C0 /* ArrayDataSource.h */,
+				392BF6861BF0308D00E117C0 /* ArrayDataSource.m */,
+				392BF6881BF0322200E117C0 /* Photo.h */,
+				392BF6891BF0322200E117C0 /* Photo.m */,
+				392BF68B1BF0323C00E117C0 /* PhotoCell.h */,
+				392BF68C1BF0323C00E117C0 /* PhotoCell.m */,
+				391F1B481BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.h */,
+				391F1B491BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.m */,
 			);
 			path = LightViewController;
 			sourceTree = "<group>";
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392BF68D1BF0323C00E117C0 /* PhotoCell.m in Sources */,
 				392BF65A1BEC89F400E117C0 /* ViewController.m in Sources */,
+				391F1B4A1BF06EBE009FB132 /* PhotoCell+ConfigureForPhoto.m in Sources */,
 				392BF6571BEC89F400E117C0 /* AppDelegate.m in Sources */,
+				392BF6871BF0308D00E117C0 /* ArrayDataSource.m in Sources */,
+				392BF68A1BF0322200E117C0 /* Photo.m in Sources */,
 				392BF6541BEC89F400E117C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +520,7 @@
 				392BF67E1BEC89F500E117C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		392BF67F1BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				392BF6811BEC89F500E117C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		392BF6821BEC89F500E117C0 /* Build configuration list for PBXNativeTarget "LightViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				392BF6841BEC89F500E117C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
